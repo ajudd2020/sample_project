@@ -27,3 +27,5 @@ I really enjoyed this project. It was fun to dig in and create something from sc
 If I had more time, I would like to rework different parts of the code. Make them more "elegant" and perhaps improve performance. I would also add more validations on the models and find better ways to leverage the object oriented structure. Perhaps move some functioanlity up to the base class controller (some before_actions, etc. that would set "container" on the items or make querying faster). I would also add error handling.
 
 Note: Generally, I would commit more frequently than I did in this project. Since I left this up and going throughout the weekend and popped in to work on it whenever I had some free time, and I often got pulled away quickly due to my kids being home, I didn't commit as much as I would have liked.
+
+Lastly, I worked on this from my husband's computer. Hense why the commits are in his name (Nick Judd). They are coming from his machine. However, they are 100% my work. My husband doesn't even know how to code.

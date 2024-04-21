@@ -1,0 +1,20 @@
+<h1><%= @project.title %></h1>
+
+<p>Budget: <%= @project.budget %></p>
+
+<h2>Rooms</h2>
+<% @project.rooms.each do |room| %>
+    <ul>
+        <li>Name: <%= room.name%> Cost: <%=room.cost%> </li>
+    </ul>
+<% end %>
+
+
+<ul>
+  <li><%= link_to "Add Room", new_project_room_path(@project) %></li>
+  <li><%= link_to "Edit", edit_project_path(@project) %></li>
+  <li><%= link_to "Destroy", project_path(@project), data: {
+                    turbo_method: :delete,
+                    turbo_confirm: "Are you sure?"
+                  } %></li>
+</ul>

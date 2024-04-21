@@ -23,5 +23,8 @@ module SampleProject
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+    
+    # Don't check for the existence of belongs_to records
+    config.active_record.belongs_to_required_by_default = false
   end
 end

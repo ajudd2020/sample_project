@@ -1,0 +1,23 @@
+<h1> New Room for <%= @project.title %> </h1>
+<%= form_with model: [@project, @project.rooms.build] do |form| %>
+    <div>
+      <%= form.label :name %><br>
+      <%= form.text_field :name %>
+      <% @room.errors.full_messages_for(:title).each do |message| %>
+          <div><%= message %></div>
+      <% end %>
+    </div>
+  
+    <div>
+      <%= form.label :cost %><br>
+      <%= form.text_area :cost %>
+      <% @room.errors.full_messages_for(:body).each do |message| %>
+          <div><%= message %></div>
+      <% end %>
+    </div>
+
+  
+    <div>
+      <%= form.submit %>
+    </div>
+  <% end %>

@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2024-04-20 10:58:36
+  total_cost: 1
+  daily_changes: 
+  project: one
+  room: one
+
+two:
+  date: 2024-04-20 10:58:36
+  total_cost: 1
+  daily_changes: 
+  project: two
+  room: two

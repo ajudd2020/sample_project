@@ -4,6 +4,14 @@
 
 # Ana Judd Sample Project
 
+## Folders/Files where work has been done: 
+Since I used the `rails new` functionality, some directories were created that I did not use. My work was done in: 
+- app/controllers
+- app/ models
+- app/jobs
+- app/ views
+- config/ schedule.rb
+
 ## What's included:
 - Four DB models
 - Controller Actions for each

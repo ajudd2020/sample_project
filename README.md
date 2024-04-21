@@ -1,7 +1,6 @@
 # README
 
-[link to lucid chart for data model]
-(https://lucid.app/lucidchart/3d0151c7-a4d9-47f6-9359-b4fbdb993fa5/edit?viewport_loc=-64%2C4%2C1579%2C869%2C0_0&invitationId=inv_858aac8e-626b-4666-a3f3-543973ce9975)
+[link to lucid chart for data model](https://lucid.app/lucidchart/3d0151c7-a4d9-47f6-9359-b4fbdb993fa5/edit?viewport_loc=-64%2C4%2C1579%2C869%2C0_0&invitationId=inv_858aac8e-626b-4666-a3f3-543973ce9975)
 
 # Ana Judd Sample Project
 

@@ -20,7 +20,7 @@ set :output, "/Users/nickjudd/Desktop/projects/sample_project/cron_log.log"
 
 # Learn more: http://github.com/javan/whenever
 
-every 1.minute do
+every 1.day, at: '11:59 pm' do
     runner "Room.record_daily_status", :environment => 'development'
     runner "Project.record_daily_status", :environment => 'development'
 end

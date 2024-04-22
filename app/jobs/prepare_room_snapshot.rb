@@ -16,7 +16,7 @@ class PrepareRoomSnapshot < ApplicationJob
             }
             room_snap = Snapshot.new(snap_shot_params)
             if !room_snap.save
-                rails "Cannot create snap"
+                raise "Cannot create snap"
             end
         end
     end

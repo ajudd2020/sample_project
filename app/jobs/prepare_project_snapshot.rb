@@ -16,7 +16,7 @@ class PrepareProjectSnapshot < ApplicationJob
             }
             project_snap = Snapshot.new(snap_shot_params)
             if !project_snap.save
-                rails "Cannot create snap"
+                raise "Cannot create snap"
             end
             puts "project" 
             puts project_snap.total_cost

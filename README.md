@@ -4,6 +4,13 @@
 
 # Ana Judd Sample Project
 
+# To Run: 
+- `bundle install`
+- `bin/rails s`
+
+Note: The cron process may or may not work based on local configurations.
+The interface is extemely minimal. Enough for testing. Additional testing can be done through the rails console. 
+
 ## Folders/Files where work has been done: 
 Since I used the `rails new` functionality, some directories were created that I did not use. My work was done in: 
 - app/controllers
